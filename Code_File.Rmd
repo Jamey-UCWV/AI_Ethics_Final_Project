@@ -1,0 +1,57 @@
+---
+title: "AI_Ethics_and_Leadership_Final_Project"
+author: "James Shamblin"
+date: "2024-01-29"
+output: html_document
+    toc: true
+    toc_float: true
+    df_print: paged
+    code_download: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+```{r libraries}
+library(tidyverse)         # for graphing and data cleaning
+theme_set(theme_minimal()) # Lisa's favorite theme
+```
+
+```{r data}
+# Read in data here
+```
+
+When you finish the assignment, remove the `#` from the options chunk at the top, so that messages and warnings aren't printed. If you are getting errors in your code, add `error = TRUE` so that the file knits. I would recommend not removing the `#` until you are completely finished.
+
+## Setting up Git and GitHub in RStudio
+
+Read the [Quick Intro](https://advanced-ds-in-r.netlify.app/posts/2021-01-28-gitgithub/#quick-intro) section of the Using git and GitHub in R Studio set of Course Materials. Set up Git and GitHub and create a GitHub repo and associated R Project (done for you when you clone the repo) for this homework assignment. Save this file to the project folder. You should always open the R Project (.Rproj) file when you work with any of the files in the project.
+
+**Tasks**:
+
+-   Edit the README file with a brief (1-2 sentences) description of what this repository is for.
+
+-   As you work on the assignment, commit and push changes to your repository.
+
+-   Below, post a link to your GitHub repository - the main page which should show the README is fine.
+
+## Creating a website
+
+You'll be using RStudio to create a personal website to showcase your work from this class! Start by watching the [Sharing on Short Notice](https://youtu.be/QcE4RBH2auQ) webinar by Alison Hill and Desirée De Leon of RStudio. This should help you choose the type of website you'd like to create.
+
+
+
+**Tasks**:
+
+-   Make sure you create an R Project first and eventually a GitHub repository for your website. I suggest doing it at the beginning. If you have any issues, let me know - I know I ran into issues with my own distill site where I couldn't have a README file.
+
+-   Create a landing page that tells people a little bit about you. You could include what you are studying in school and your career/post-graduation aspirations, a photo, a link to your resume/CV, job/research experiences, and even something about other interests.
+
+-   Add another page where you will add posts. This could be a blog-format or a place you can link to other knitted html documents. 
+
+-   Do some customization! This could be something small, like changing the default theme of an RMarkdown website. Or, it could be something bigger, like digging into the custom CSS of a distill or blogdown site. You should look at other people's website code for inspiration. A starting place might be the [distillery](https://distillery.rbind.io/showcase.html) blog that has links to source code for all those websites.
+
+-   Include a link to your website below.
+
+-   Listen to at least the first 20 minutes of "Building a Career in Data Science, Chapter 4: Building a Portfolio". Go to the main [podcast website](https://podcast.bestbook.cool/) and navigate to a podcast provider that works for you to find that specific episode. Write 2-3 sentences reflecting on what they discussed and why creating a website might be helpful for you.
