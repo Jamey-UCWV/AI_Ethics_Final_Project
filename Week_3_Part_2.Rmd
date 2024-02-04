@@ -1,0 +1,24 @@
+---
+title: "Week 3 Homework Part 2"
+author: "James Shamblin"
+date: "2024-02-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+What are some topics (or a single topic) you are interested in studying from a data science perspective? These can be very specific or more general.
+
+I'm big into sports and fantasy football, its always fun to get a group of friends together and yell at the TV when a player I have doesn't do exactly what I want them to do and ruins my mood for the next 2 days as I question every decision I've made in the past 4 years. Jokes aside, I really enjoy looking at analytics about sports because even if people think they can predict what will happen based off predictive analytics, there are some variables such as emotion, the will to play the game, luck, bad calls, and many more that heavily influence the games we love to watch.
+
+Given your to topic(s), where would you find data about it? Provide at least two sources, being as specific as possible. If you need to collect/scrape it yourself, describe the steps you’d need too take.
+
+Data of this topic is very easy to come by since how popular sports such as pro and college football and basketball have become so popular, their are multiple platforms to find stats about teams, players, dynamics, etc. ESPN.com has a database about any player and their stats along with team stats. Other platforms such as fantasy sites or even sports betting sites has multiple statistics specialized for their own platform and with each platform having different objectives for their customers and users that means a much more diverse range of statistics to pull from.
+
+What challenges do you imagine having? How might you overcome them?
+
+A big challenge would be to find a way to cover these variables mentioned earlier, such as emotions, bad calls, etc. These variables are what some would say are completely unpredictable. As an athlete, I've had moments when I've won races I shouldn't have and lost race I've should've won. Trying to pick upsets is the fun of it. I wish I had this class during march madness, it would be fun to build this project around using statistics and impossible variables to try and predict upsets. As for overcoming there challenges I am not entirely sure how considering they are unpredictable, but I will love to try and think outside the box when we approach that challenge. 
+
+Type your responses below and save it on Rmarkdown.
