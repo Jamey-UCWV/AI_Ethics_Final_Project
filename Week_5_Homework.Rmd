@@ -1,0 +1,48 @@
+---
+title: "Week 5 Homework"
+author: "James Shamblin"
+date: "2024-02-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+Part 1 -- Source of Bias:
+1) What are some potential sources of bias in the underlying data?
+The data includes the following variables: Historical loans and payments, credit
+reporting data, and background checks. If a certain group of people have disadvantages or 
+face barriers to accessing loans, it can create a cycle of bias and inequality.
+
+2. How might biases be introduced in the data science pipeline?
+Biases can be introduced in the data science pipeline at various stages, Some common
+sources of bias include data collection methods, biased data labeling or annotation,
+biased feature selection, and biased model training.
+
+3. What are the risks to fairness in downstream applications and deployment of the model described?
+Biased models can perpetuate existing inequalities and result in unfair outcomes
+for certain groups.
+ 
+
+ 
+
+Part 2 –– Bias Metrics:
+1. How would you describe a false positive in this problem to a policymaker or business owner? What’s the potential harm/cost of one?
+A false positive in this context would be like if a loan application was flagged as 
+risky and denied, but in reality, the applicant was actually creditworthy and would
+have repaid the loan without issues.
+
+2. How would you describe a false negative to a policymaker or business owner? What’s the potential harm/cost of one?
+A false negative in this context would be like if a loan application was flagged as
+trustworthy and credited, but in reality, the applicant was actually not creditworthy
+and would not have repaid the loan without issues.
+
+3. What confusion matrix metric (e.g., FPR, FNR, TPR, FDR, etc.) would you choose to focus on in terms of equity for this case? Think of the fairness tree here.
+In terms of equity, a confusion matrix metric that you could focus on is the False Positive
+Rate (FPR). The FPR measures the proportion of negative instances that are incorrectly
+classified as positive. By mimimizing the FPR, you can reduce the number of creditworthy
+individuals who are unfairly denied loans, promoting fairness and equity in the lending
+process.
